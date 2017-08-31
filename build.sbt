@@ -1,4 +1,4 @@
-addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.3")
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.5")
 
 sbtPlugin := true
 
@@ -6,7 +6,9 @@ name := "sbt-spark-package"
 
 organization := "org.spark-packages"
 
-version := "0.2.7-SNAPSHOT"
+scalaVersion := "2.11.11"
+
+version := "0.2.7-phi9t-SNAPSHOT"
 
 description := "sbt plugin to develop, use, and publish Spark Packages"
 
